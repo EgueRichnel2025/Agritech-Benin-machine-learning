@@ -1,0 +1,6 @@
+maize_cercospora
+maize_common_rust
+maize_healthy
+maize_northern_leaf_blight
+tomato_healthy
+tomato_late_blight
