@@ -76,9 +76,6 @@ def preprocess_image(image: Image.Image) -> np.ndarray:
 
     image_array = np.array(image, dtype=np.float32)
 
-    # Même prétraitement que pendant l'entraînement
-    image_array = image_array / 127.5 - 1.0
-
     # Ajout de la dimension batch
     image_array = np.expand_dims(image_array, axis=0)
 
